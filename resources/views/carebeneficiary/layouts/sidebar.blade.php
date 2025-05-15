@@ -3,7 +3,7 @@
     <div>
         <div class="logo-wrapper">
             <a href="{{ route('carebeneficiary.dashboard') }}">
-                <img class="img-fluid" src="/dashboard-assets/images/logo/logo_light.png" alt="">
+                <img class="img-fluid" src="/dashboard-assets/images/logo/logo_lights.png" alt="">
             </a>
             <div class="back-btn"><i class="fa fa-angle-left"></i></div>
             <div class="toggle-sidebar">
@@ -69,7 +69,7 @@
 
 
                     <li class="sidebar-list">
-                        <a class="{{ request()->is('carebeneficiary/eligibility*') ? 'active' : '' }} sidebar-link sidebar-title link-nav" 
+                        <a class="{{ request()->is('carebeneficiary/eligibility*') ? 'active' : '' }} sidebar-link sidebar-title link-nav"
                             href="{{ route('carebeneficiary.eligibility.show') }}">
                             <svg class="stroke-icon">
                                 <use href="/dashboard-assets/svg/icon-sprite.svg#stroke-check"></use>
@@ -80,8 +80,8 @@
                             <span>Eligibility</span>
                         </a>
                     </li>
-                   
-                    
+
+
 
                     <li class="sidebar-list">
                         <a class="{{ request()->is('carebeneficiary/family*') ? 'active' : '' }}  sidebar-link sidebar-title link-nav" href="{{ route('carebeneficiary.family-member') }}">
@@ -98,7 +98,7 @@
                     </li>
 
 
-                    
+
                     <li class="sidebar-list">
                         <a class="{{ request()->is('carebeneficiary/knowledgebase*') ? 'active' : '' }} sidebar-link sidebar-title link-nav" href="{{ route('carebeneficiary.knowledgebase.index') }}">
                             <svg class="stroke-icon">
@@ -135,7 +135,7 @@
                             <span>Change Password</span>
                         </a>
                     </li>
-                    
+
                     <li class="sidebar-list">
                         <a class="sidebar-link sidebar-title link-nav" href="{{ route('logout') }}">
                             <svg class="stroke-icon">
@@ -144,8 +144,8 @@
                             <span>Logout</span>
                         </a>
                     </li>
-                    
-                    
+
+
                 </ul>
             </div>
             <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>

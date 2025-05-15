@@ -31,6 +31,12 @@ class ServiceController extends Controller
         return view('caregiver.pages.service-index', compact('services'));
     }
 
+    public function  servicAadmin(){
+
+        $services = Service::all();
+        return view('admin.pages.service-index', compact('services'));
+    }
+
     /**
      * Show the form for creating a new resource.
      */
@@ -66,7 +72,6 @@ class ServiceController extends Controller
                     ->withInput();
             }
 
-            $actif = $request->has('actif') ? 'actif' : 'inactif';
             // save service
             $service = new Service();
             $service->nom = $request->nom;

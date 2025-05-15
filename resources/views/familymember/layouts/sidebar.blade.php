@@ -3,7 +3,7 @@
     <div>
         <div class="logo-wrapper">
             <a href="{{ route('familymember.dashboard') }}">
-                {{-- <img class="img-fluid" src="/dashboard-assets/images/logo/logo_light.png" alt=""> --}}
+                {{-- <img class="img-fluid" src="/dashboard-assets/images/logo/logo_lights.png" alt=""> --}}
             </a>
             <div class="back-btn"><i class="fa fa-angle-left"></i></div>
             <div class="toggle-sidebar">

@@ -135,7 +135,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <input type="hidden" name="id" id="id"  value="{{ $service->id }}">
+                                    <input type="hidden" name="id" id="id" value="{{ $service->id }}">
                                     <!-- Price -->
                                     <div class="col-md-6">
                                         <div class="mb-3">
@@ -165,7 +165,7 @@
                                     <div class="col-md-6 mb-3">
                                         <div class="form-check form-switch">
                                             <input class="form-check-input" name="status" type="checkbox"
-                                               {{ old('status', $service->status) ? 'checked' : '' }}>
+                                                {{ old('status', $service->status) ? 'checked' : '' }}>
                                             <label class="form-check-label">Actif ?</label>
                                         </div>
                                     </div>

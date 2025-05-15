@@ -3,7 +3,7 @@
     <div>
         <div class="logo-wrapper">
             <a href="{{ route('admin.dashboard') }}">
-                <img class="img-fluid" src="/dashboard-assets/images/logo/logo_light.png" alt="">
+                <img class="img-fluid" src="/dashboard-assets/images/logo/logo_lights.png" alt="">
             </a>
             <div class="back-btn"><i class="fa fa-angle-left"></i></div>
             <div class="toggle-sidebar">
@@ -127,6 +127,12 @@
                         <a class="{{ request()->is('admin/categorie*') ? 'active' : '' }} sidebar-link sidebar-title link-nav" href="{{ route('admin.categorie.index') }}">
                             <i class="fa fa-folder-open text-white" style="margin-right: 14px;"></i>
                             <span>Catégorie </span>
+                        </a>
+                    </li>
+                    <li class="sidebar-list">
+                        <a class="{{ request()->is('admin/services*') ? 'active' : '' }} sidebar-link sidebar-title link-nav" href="{{ route('admin.services.servicAadmin') }}">
+                            <i class="fa fa-server text-white" style="margin-right: 14px;"></i>
+                            <span>Services</span>
                         </a>
                     </li>
 

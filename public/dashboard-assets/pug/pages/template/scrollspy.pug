@@ -27,18 +27,18 @@ html(lang='en')
         include ../../components/sidebar
         .page-body
           // Container-fluid starts
-          .container-fluid 
+          .container-fluid
             .row.main-scrollspy
-                .col-12 
-                    .card 
-                        .card-header 
+                .col-12
+                    .card
+                        .card-header
                             h4 Navbar Scrollspy
-                            p.f-m-light.mt-1 
-                                |  Add 
-                                code data-bs-spy="scroll" 
-                                | and 
-                                code data-bs-target="#navId" 
-                                | where navId is the unique id of the associated navigation. Scroll the area below the navbar and watch the active class change. 
+                            p.f-m-light.mt-1
+                                |  Add
+                                code data-bs-spy="scroll"
+                                | and
+                                code data-bs-target="#navId"
+                                | where navId is the unique id of the associated navigation. Scroll the area below the navbar and watch the active class change.
                             .card-header-right
                                 ul.list-unstyled.card-option
                                     li
@@ -56,7 +56,7 @@ html(lang='en')
                         .card-body.navbar-scrollspy
                             nav#navbar-scrollspy1.navbar.bg-body-tertiary.px-3.mb-3
                                 a.navbar-brand(href='#')
-                                    img.img-fluid.for-light(src="../assets/images/logo/logo.png", alt="logo")
+                                    img.img-fluid.for-light(src="../assets/images/logo/logo-2.png", alt="logo")
                                     img.img-fluid.for-dark(src="../assets/images/logo/logo_dark.png", alt="logo")
                                 ul.nav.nav-pills
                                     li.nav-item
@@ -91,7 +91,7 @@ html(lang='en')
                                 pre.theme-scrollbar
                                     code.language-html#nav-scrollspy-copy
                                         |&lt;div class="card-body navbar-scrollspy"&gt;
-                                        |    &lt;nav class="navbar bg-body-tertiary px-3 mb-3" id="navbar-scrollspy1"&gt;&lt;a class="navbar-brand" href="#"&gt;&lt;img class="img-fluid for-light" src="../assets/images/logo/logo.png" alt="logo"&gt;&lt;img class="img-fluid for-dark" src="../assets/images/logo/logo_dark.png" alt="logo"&gt;&lt;/a&gt;
+                                        |    &lt;nav class="navbar bg-body-tertiary px-3 mb-3" id="navbar-scrollspy1"&gt;&lt;a class="navbar-brand" href="#"&gt;&lt;img class="img-fluid for-light" src="../assets/images/logo/logo-2.png" alt="logo"&gt;&lt;img class="img-fluid for-dark" src="../assets/images/logo/logo_dark.png" alt="logo"&gt;&lt;/a&gt;
                                         |        &lt;ul class="nav nav-pills"&gt;
                                         |            &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#scrollspyHeading1"&gt;Section 1&lt;/a&gt;&lt;/li&gt;
                                         |            &lt;li class="nav-item"&gt;&lt;a class="nav-link" href="#scrollspyHeading2"&gt;Section 2&lt;/a&gt;&lt;/li&gt;
@@ -121,18 +121,18 @@ html(lang='en')
                                         |    &lt;/div&gt;
                                         |&lt;/div&gt;
 
-                .col-12 
+                .col-12
                     .card
-                        .card-header 
+                        .card-header
                             h4 Nested Scrollspy
-                            p.f-m-light.mt-1 
-                                | Scrollspy also works with nested 
+                            p.f-m-light.mt-1
+                                | Scrollspy also works with nested
                                 code .navs
-                                |  if a nested 
-                                code .nav 
-                                | is 
+                                |  if a nested
+                                code .nav
+                                | is
                                 code .active
-                                | , it's parents will also be 
+                                | , it's parents will also be
                                 code .active
                                 | . Scroll the area next to the navbar and watch the active class change.
                             .card-header-right
@@ -156,7 +156,7 @@ html(lang='en')
                                         nav.nav.nav-pills.flex-column
                                             a.nav-link(href='#item-1') Experience
                                             nav.nav.nav-pills.flex-column
-                                                a.nav-link.ms-3.my-1(href='#item-1-1') Web Development 
+                                                a.nav-link.ms-3.my-1(href='#item-1-1') Web Development
                                                 a.nav-link.ms-3.my-1(href='#item-1-2') Cyber Security
                                             a.nav-link(href='#item-2') Get in Touch
                                             a.nav-link(href='#item-3') Projects
@@ -174,7 +174,7 @@ html(lang='en')
                                                 .flex-grow-1
                                                     p This content is a stand-in for the scrollspy page. You'll notice that the relevant navigation link is highlighted as you scroll down the page. It appears again in the component example. Here, we'll continue to add sample copy to highlight the scrolling and highlighting.
                                         #item-1-1
-                                            h6  Experience / Web Development 
+                                            h6  Experience / Web Development
                                             p This is some stuff that is meant to be on the scrollspy page. Keep in mind that the relevant navigation link is highlighted as you scroll down the page. The component example uses it repeatedly. Here, we continue to add sample copy to highlight the scrolling and highlighting.
                                         #item-1-2
                                             h6  Experience / Cyber Security
@@ -281,12 +281,12 @@ html(lang='en')
                                         |        &lt;/div&gt;
                                         |    &lt;/div&gt;
                                         |&lt;/div&gt;
-                .col-12 
-                    .card 
-                        .card-header 
+                .col-12
+                    .card
+                        .card-header
                             h4 List Group Scrollspy
-                            p.f-m-light.mt-1 
-                                | Scrollspy also works with 
+                            p.f-m-light.mt-1
+                                | Scrollspy also works with
                                 code .list-groups
                                 | . Scroll the area next to the list group and watch the active class change.
                             .card-header-right
@@ -303,7 +303,7 @@ html(lang='en')
                                         i.icofont.icofont-refresh.reload-card
                                     li
                                         i.icofont.icofont-error.close-card
-                        .card-body 
+                        .card-body
                             .row.gy-3
                                 .col-sm-4
                                     #list-example.list-group
@@ -343,15 +343,15 @@ html(lang='en')
                                         |        &lt;/div&gt;
                                         |    &lt;/div&gt;
                                         |&lt;/div&gt;
-                .col-12 
-                    .card 
-                        .card-header 
+                .col-12
+                    .card
+                        .card-header
                             h4 Custom Scrollspy
-                            p.f-m-light.mt-1 
-                                | add 
-                                code data-bs-spy="scroll" 
-                                | and 
-                                code data-bs-target="#navId" 
+                            p.f-m-light.mt-1
+                                | add
+                                code data-bs-spy="scroll"
+                                | and
+                                code data-bs-target="#navId"
                                 |  where navId is the unique id of the associated navigation.
                             .card-header-right
                                 ul.list-unstyled.card-option
@@ -371,12 +371,12 @@ html(lang='en')
                             .row.gy-3
                                 .col-xxl-2.col-md-3.col-sm-4
                                     nav#navbar-scrollspy4.h-100.flex-column.align-items-stretch.pe-4
-                                        nav.nav.nav-pills.flex-column 
-                                            a.nav-link(href='#home1') Home 
+                                        nav.nav.nav-pills.flex-column
+                                            a.nav-link(href='#home1') Home
                                                 .custom-arrow
                                             a.nav-link(href='#about-me') About Me
                                                 .custom-arrow
-                                            a.nav-link(href='#project1') Projects 
+                                            a.nav-link(href='#project1') Projects
                                                 .custom-arrow
                                             a.nav-link(href='#experience1') Experience
                                                 .custom-arrow
@@ -390,7 +390,7 @@ html(lang='en')
                                                 .flex-grow-1
                                                     span This content is a stand-in for the scrollspy page. You'll notice that the relevant navigation link is highlighted as you scroll down the page. It appears again in the component example. Here, we'll continue to add sample copy to highlight the scrolling and highlighting.
                                                         | Remember that the JavaScript plugin selects the appropriate element from among those that might be displayed. There could be some problems if there are several scrollspy targets showing at once.
-                                                    
+
                                         #about-me.common-p-space
                                             h5 About Me
                                             .about-box.common-align.gap-3
@@ -401,18 +401,18 @@ html(lang='en')
                                                         span.ms-1
                                                             svg.fill-icon
                                                                 use(href='../assets/svg/icon-sprite.svg#arrowright')
-                                            
+
                                         #project1.common-p-space
                                             h5 Projects
                                             .row.g-3.main-project
-                                                .col-xl-12 
+                                                .col-xl-12
                                                     .light-card.attendance-card
                                                         .left-overview-content
                                                             .svg-box
-                                                                svg 
+                                                                svg
                                                                     use(href='../assets/svg/icon-sprite.svg#e-commerce-cart')
                                                         .right-overview-content
-                                                            div 
+                                                            div
                                                                 h6 Websites for E-Commerce
                                                                 span.text-muted.text-ellipsis Created a comprehensive e-commerce platform with the goal of improving the online purchasing experience. The project's goals were to offer a smooth navigation system, a user-friendly interface, and strong functionality to accommodate a wide variety of products.
                                                             div.d-flex.marks-count
@@ -421,14 +421,14 @@ html(lang='en')
                                                                 div.d-flex.justify-content-center.align-items-center
                                                                     i.icon-arrow-up.txt-success.pe-2.f-w-600
                                                                     span.txt-success.f-w-500 +80%
-                                                .col-xl-12 
+                                                .col-xl-12
                                                     .light-card.attendance-card
                                                         .left-overview-content
                                                             .svg-box
-                                                                svg 
+                                                                svg
                                                                     use(href='../assets/svg/icon-sprite.svg#robotics-project')
                                                         .right-overview-content
-                                                            div 
+                                                            div
                                                                 h6 Robotics Sensor
                                                                 span.text-muted.text-ellipsis Lidar sensor array was put into use for obstacle identification and real-time mapping. With the use of this data, the rover creates an extensive picture of its environment that helps it safely traverse difficult terrain.
                                                             div.d-flex.marks-count
@@ -437,14 +437,14 @@ html(lang='en')
                                                                 div.d-flex.justify-content-center.align-items-center
                                                                     i.icon-arrow-up.txt-success.pe-2.f-w-600
                                                                     span.txt-success.f-w-500 +97%
-                                                .col-xl-12 
+                                                .col-xl-12
                                                     .light-card.attendance-card
                                                         .left-overview-content
                                                             .svg-box
-                                                                svg 
+                                                                svg
                                                                     use(href='../assets/svg/icon-sprite.svg#watch-app')
                                                         .right-overview-content
-                                                            div 
+                                                            div
                                                                 h6 Watch Application
                                                                 span.text-muted.text-ellipsis Keeps an eye on key health indicators like heart rate, steps taken, calories burnt, and sleep habits. makes use of cutting-edge algorithms to deliver precise and useful health insights.
                                                             div.d-flex.marks-count
@@ -474,9 +474,9 @@ html(lang='en')
                                         |&lt;div class="row gap-xl-0 gap-4"&gt;
                                         |  &lt;div class="col-xxl-2 col-xl-3"&gt;
                                         |    &lt;nav class="h-100 flex-column align-items-stretch pe-4" id="navbar-scrollspy4"&gt;
-                                        |      &lt;nav class="nav nav-pills flex-column"&gt; &lt;a class="nav-link" href="#home1"&gt;Home 
+                                        |      &lt;nav class="nav nav-pills flex-column"&gt; &lt;a class="nav-link" href="#home1"&gt;Home
                                         |          &lt;div class="custom-arrow"&gt;&lt;/div&gt;&lt;/a&gt;&lt;a class="nav-link" href="#about-me"&gt;About Me
-                                        |          &lt;div class="custom-arrow"&gt;&lt;/div&gt;&lt;/a&gt;&lt;a class="nav-link" href="#project1"&gt;Projects 
+                                        |          &lt;div class="custom-arrow"&gt;&lt;/div&gt;&lt;/a&gt;&lt;a class="nav-link" href="#project1"&gt;Projects
                                         |          &lt;div class="custom-arrow"&gt;&lt;/div&gt;&lt;/a&gt;&lt;a class="nav-link" href="#experience1"&gt;Experiences
                                         |          &lt;div class="custom-arrow"&gt;&lt;/div&gt;&lt;/a&gt;&lt;/nav&gt;
                                         |    &lt;/nav&gt;
@@ -504,17 +504,17 @@ html(lang='en')
                                         |      &lt;div class="common-p-space" id="project1"&gt;
                                         |        &lt;h6&gt;Projects&lt;/h6&gt;
                                         |        &lt;div class="row g-3 main-project"&gt;
-                                        |          &lt;div class="col-xl-12"&gt; 
+                                        |          &lt;div class="col-xl-12"&gt;
                                         |            &lt;div class="light-card attendance-card"&gt;
                                         |              &lt;div class="left-overview-content"&gt;
                                         |                &lt;div class="svg-box"&gt;
-                                        |                  &lt;svg&gt; 
+                                        |                  &lt;svg&gt;
                                         |                    &lt;use href="../assets/svg/icon-sprite.svg#e-commerce-cart"&gt;&lt;/use&gt;
                                         |                  &lt;/svg&gt;
                                         |                &lt;/div&gt;
                                         |              &lt;/div&gt;
                                         |              &lt;div class="right-overview-content"&gt;
-                                        |                &lt;div&gt; 
+                                        |                &lt;div&gt;
                                         |                  &lt;h6&gt;Websites for E-Commerce&lt;/h6&gt;&lt;span class="text-muted text-ellipsis"&gt;Created a comprehensive e-commerce platform with the goal of improving the online purchasing experience. The project's goals were to offer a smooth navigation system, a user-friendly interface, and strong functionality to accommodate a wide variety of products.&lt;/span&gt;
                                         |                &lt;/div&gt;
                                         |                &lt;div class="d-flex marks-count"&gt;
@@ -524,17 +524,17 @@ html(lang='en')
                                         |              &lt;/div&gt;
                                         |            &lt;/div&gt;
                                         |          &lt;/div&gt;
-                                        |          &lt;div class="col-xl-12"&gt; 
+                                        |          &lt;div class="col-xl-12"&gt;
                                         |            &lt;div class="light-card attendance-card"&gt;
                                         |              &lt;div class="left-overview-content"&gt;
                                         |                &lt;div class="svg-box"&gt;
-                                        |                  &lt;svg&gt; 
+                                        |                  &lt;svg&gt;
                                         |                    &lt;use href="../assets/svg/icon-sprite.svg#robotics-project"&gt;&lt;/use&gt;
                                         |                  &lt;/svg&gt;
                                         |                &lt;/div&gt;
                                         |              &lt;/div&gt;
                                         |              &lt;div class="right-overview-content"&gt;
-                                        |                &lt;div&gt; 
+                                        |                &lt;div&gt;
                                         |                  &lt;h6&gt;Robotics Sensor&lt;/h6&gt;&lt;span class="text-muted text-ellipsis"&gt;Lidar sensor array was put into use for obstacle identification and real-time mapping. With the use of this data, the rover creates an extensive picture of its environment that helps it safely traverse difficult terrain.&lt;/span&gt;
                                         |                &lt;/div&gt;
                                         |                &lt;div class="d-flex marks-count"&gt;
@@ -544,17 +544,17 @@ html(lang='en')
                                         |              &lt;/div&gt;
                                         |            &lt;/div&gt;
                                         |          &lt;/div&gt;
-                                        |          &lt;div class="col-xl-12"&gt; 
+                                        |          &lt;div class="col-xl-12"&gt;
                                         |            &lt;div class="light-card attendance-card"&gt;
                                         |              &lt;div class="left-overview-content"&gt;
                                         |                &lt;div class="svg-box"&gt;
-                                        |                  &lt;svg&gt; 
+                                        |                  &lt;svg&gt;
                                         |                    &lt;use href="../assets/svg/icon-sprite.svg#watch-app"&gt;&lt;/use&gt;
                                         |                  &lt;/svg&gt;
                                         |                &lt;/div&gt;
                                         |              &lt;/div&gt;
                                         |              &lt;div class="right-overview-content"&gt;
-                                        |                &lt;div&gt; 
+                                        |                &lt;div&gt;
                                         |                  &lt;h6&gt;Watch Application&lt;/h6&gt;&lt;span class="text-muted text-ellipsis"&gt;Keeps an eye on key health indicators like heart rate, steps taken, calories burnt, and sleep habits. makes use of cutting-edge algorithms to deliver precise and useful health insights.&lt;/span&gt;
                                         |                &lt;/div&gt;
                                         |                &lt;div class="d-flex marks-count"&gt;

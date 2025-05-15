@@ -2,22 +2,22 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        
+
         <!-- Dynamic Page Title -->
         <title>@yield('title', config('app.name') . ' - Connecting People with Compassionate Carers')</title>
-    
+
         <!-- Meta Description (Crucial for SEO) -->
         <meta name="description" content="{{ config('app.name') }} connects families and individuals seeking care with compassionate self-employed carers.">
-        
+
         <!-- SEO Keywords -->
         <meta name="keywords" content="{{ config('app.name') }}, home care, elderly care, caregivers, service users, independent carers, respite care, live-in care, professional caregivers, personalized care, UK carers">
-        
+
         <!-- Author -->
         <meta name="author" content="{{ config('app.name') }} Team">
-        
+
         <!-- Robots Meta (Index & Follow Pages for SEO) -->
         <meta name="robots" content="index, follow">
-    
+
         <!-- Open Graph (OG) Tags for Social Media Sharing -->
 
         <meta property="og:title" content="@yield('title', config('app.name') . ' - Find the right support.')">
@@ -25,13 +25,13 @@
         <meta property="og:image" content="{{ asset('/mainsite-assets/images/social-preview.jpg') }}">
         <meta property="og:url" content="{{ url()->current() }}">
         <meta property="og:type" content="website">
-        
+
         <!-- Twitter Card (Enhance Twitter Shares) -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="@yield('title', config('app.name') . ' - Find the right support.')">
         <meta name="twitter:description" content="{{ config('app.name') }} connects families and individuals seeking care with trusted independent caregivers.">
         <meta name="twitter:image" content="{{ asset('/mainsite-assets/images/social-preview.jpg') }}">
-    
+
         <!-- Mobile Responsive Meta -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -43,14 +43,14 @@
         <link href="/mainsite-assets/plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
         <link href="/mainsite-assets/css/style.css" rel="stylesheet">
         <link href="/mainsite-assets/css/responsive.css" rel="stylesheet">
-    
+
         <!-- Favicon -->
         <link rel="shortcut icon" href="/mainsite-assets/images/favicon.png" type="image/x-icon">
         <link rel="icon" href="/mainsite-assets/images/favicon.png" type="image/x-icon">
 
         @stack('styles')
 
-    </head>    
+    </head>
 
 <body>
 
@@ -68,7 +68,7 @@
 				<!-- Main box -->
 				<div class="main-box">
 					<div class="logo-box">
-						<div class="logo"><a href="{{ route('mainsite.home') }}"><img src="/mainsite-assets/images/logo.png" alt="" title="Insumo"></a></div>
+						<div class="logo"><a href="{{ route('mainsite.home') }}"><img src="/mainsite-assets/images/logo-2.png" alt="" title="Insumo"></a></div>
 					</div>
 
 					<!--Nav Box-->
@@ -105,10 +105,10 @@
                                 <li class="{{ request()->routeIs('mainsite.helpandadvice') ? 'current' : '' }}">
                                     <a href="{{ route('mainsite.helpandadvice') }}">Help & Advice</a>
                                 </li>
-             
-                 
+
+
                             </ul>
-                            
+
 						</nav>
 
 						<!-- Main Menu End-->
@@ -116,7 +116,7 @@
 
 					<div class="outer-box">
 						<div class="ui-btn-outer">
- 
+
 						</div>
                         @if (Auth::guest())
                             <button class="btn btn-danger" onclick="window.location.href='{{ route('mainsite.login') }}'">
@@ -129,7 +129,7 @@
                         @endif
 
 
-                        
+
 
 						<!-- Mobile Nav toggler -->
 						<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
@@ -151,11 +151,11 @@
 				<ul class="navigation clearfix">
 					<!--Keep This Empty / Menu will come through Javascript-->
 				</ul>
- 
+
 			</nav>
 		</div><!-- End Mobile Menu -->
 
- 
+
 		<!-- Sticky Header  -->
 		<div class="sticky-header">
 			<div class="auto-container">
@@ -197,7 +197,7 @@
                         <!-- Logo -->
                         <div class="contact-info logo-box col-lg-4 wow fadeInUp text-center">
                             <div class="logo">
-                                <a href="{{ route('mainsite.home') }}"><img src="/mainsite-assets/images/logo.png" alt="Company Logo"></a>
+                                <a href="{{ route('mainsite.home') }}"><img src="/mainsite-assets/images/logo-2.png" alt="Company Logo"></a>
                             </div>
                         </div>
                         <!-- Email Info -->
@@ -221,7 +221,7 @@
                     </div>
                 </div>
             </div>
-        
+
             <!-- Widgets Section -->
             <div class="widgets-section">
                 <div class="auto-container">
@@ -251,8 +251,8 @@
                                             @if (Auth::guest())
                                                 <li><a href="{{ route('mainsite.register') }}">Register</a></li>
                                             @endif
-                                                                                   
-                                            
+
+
 
                                         </ul>
                                     </div>
@@ -278,15 +278,15 @@
                                 </ul>
                             </div>
                         </div>
-                        
-        
+
+
                         <!-- Contact Column -->
                         <div class="footer-column col-xl-3 col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-widget contacts-widget">
                                 <h6 class="widget-title">Address</h6>
                                 <div class="text">{{ $companyContact['address_1'] ?? "NULL" }}</div>
                                 <ul class="social-icon-two">
-                                 
+
                                         @if($companyContact['facebook'])
                                             <li><a href="{{ $companyContact['facebook'] }}" target="_blank"><i class="fab fa-facebook"></i></a></li>
                                         @endif
@@ -299,17 +299,17 @@
                                         @if($companyContact['youtube'])
                                             <li><a href="{{ $companyContact['youtube'] }}" target="_blank"><i class="fab fa-youtube"></i></a></li>
                                         @endif
-                                   
-                                    
+
+
                                 </ul>
                             </div>
                         </div>
-        
+
 
                     </div>
                 </div>
             </div>
-        
+
             <!-- Footer Bottom -->
             <div class="footer-bottom">
                 <div class="auto-container">
@@ -321,15 +321,15 @@
                 </div>
             </div>
         </footer>
-        
+
 	<!--End Main Footer -->
 
     </div><!-- End Page Wrapper -->
 
     <!-- Scroll To Top -->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
-        
-    <script src="/mainsite-assets/js/jquery.js"></script> 
+
+    <script src="/mainsite-assets/js/jquery.js"></script>
     <script src="/mainsite-assets/js/popper.min.js"></script>
     <script src="/mainsite-assets/js/bootstrap.min.js"></script>
     <script src="/mainsite-assets/js/jquery.fancybox.js"></script>
@@ -344,9 +344,9 @@
     <script src="/mainsite-assets/js/select2.min.js"></script>
     <script src="/mainsite-assets/js/owl.js"></script>
     <script src="/mainsite-assets/js/script.js"></script>
-    
+
     @stack('scripts')
 
      </body>
-    
+
      </html>

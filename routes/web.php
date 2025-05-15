@@ -382,6 +382,9 @@ Route::prefix('admin')->middleware(AdminMiddleware::class)->name('admin.')->grou
     // Service
     // Categorie
     Route::resource('categorie',CategorieController::class);
+    // service
+    Route::get('/services', [ServiceController::class, 'servicAadmin'])->name('services.servicAadmin');
+
 
 
 

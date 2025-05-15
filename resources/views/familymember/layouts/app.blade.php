@@ -32,8 +32,8 @@
       <div class="page-header row">
         <div class="header-logo-wrapper col-auto">
           <div class="logo-wrapper"><a href="{{ route('familymember.dashboard') }}">
-            {{-- <img class="img-fluid for-light" src="/dashboard-assets/images/logo/logo.png" alt=""/>
-            <img class="img-fluid for-dark" src="/dashboard-assets/images/logo/logo_light.png" alt=""/> --}}
+            {{-- <img class="img-fluid for-light" src="/dashboard-assets/images/logo/logo-2.png" alt=""/>
+            <img class="img-fluid for-dark" src="/dashboard-assets/images/logo/logo_lights.png" alt=""/> --}}
         </a></div>
         </div>
         <div class="col-4 col-xl-4 page-title">
@@ -44,7 +44,7 @@
           <div class="row">
 
             <div class="header-logo-wrapper col-auto p-0">
-              <div class="logo-wrapper"><a href="{{ route('familymember.dashboard') }}"><img class="img-fluid" src="/dashboard-assets/images/logo/logo.png" alt=""></a></div>
+              <div class="logo-wrapper"><a href="{{ route('familymember.dashboard') }}"><img class="img-fluid" src="/dashboard-assets/images/logo/logo-2.png" alt=""></a></div>
               <div class="toggle-sidebar">
                 <svg class="stroke-icon sidebar-toggle status_toggle middle">
                   <use href="/dashboard-assets/svg/icon-sprite.svg#toggle-icon"></use>
