@@ -166,7 +166,7 @@
                     <!-- Mobile App Download Buttons -->
                     <div class="btn-box mt-4">
                         <a href="#" style="width:100%" class="mb-3 theme-btn btn-style-one btn-block"><i class="fab fa-apple"></i> &nbsp; Download for iOS</a>
-                         
+
                         <a href="#" style="width:100%"  class="theme-btn btn-style-one btn-block"><i class="fab fa-android"></i> &nbsp; Download for Android</a>
                     </div>
                 </div>
@@ -186,7 +186,7 @@
 
 
 
- 
+
 <!-- Why Choose Us -->
 <section class="why-choose-us-one">
     <div class="auto-container">
@@ -200,7 +200,7 @@
                             <h2 class="text-split">Connecting Families with Trusted Carers</h2>
                             <div class="text">At {{ config('app.name') }}, we bridge the gap between families and dedicated, self-employed live-in carers, ensuring personalized and compassionate care for your loved ones.</div>
                         </div>
-        
+
                         <a href="{{ route('mainsite.about') }}" class="theme-btn btn-style-two"><span class="btn-title">Explore Now</span></a>
                     </div>
                 </div>
@@ -240,7 +240,7 @@
 
 
 
- 
+
 
 <!-- Call To Action Three -->
 <section class="call-to-action-three">
@@ -268,7 +268,7 @@
 
 
 
- 
+
 <!-- Testimonial Section -->
 <section class="testimonial-section">
     <div class="bg bg-pattern-5"></div>
@@ -284,7 +284,7 @@
                     <div class="text">Hear directly from families and seniors who have experienced the {{ config('app.name') }} difference. Their stories inspire us every day.</div>
                 </div>
             </div>
-            
+
             <div class="testimonial-column col-xl-7 col-lg-8 col-md-12">
                 <div class="carousel-outer">
                     <div class="testimonial-carousel owl-carousel owl-theme default-navs">
@@ -355,7 +355,7 @@
 </section>
 <!-- End Testimonial Section -->
 
- 
+
 
 
 <section class="container my-5">
@@ -383,7 +383,7 @@
                             </div>
                         </div>
                     </li>
-                    
+
                     <li class="accordion block">
                         <div class="acc-btn">How does {{ config('app.name') }} select carers?
                             <div class="icon fa fa-angle-right"></div>
@@ -394,7 +394,7 @@
                             </div>
                         </div>
                     </li>
-                    
+
                     <li class="accordion block">
                         <div class="acc-btn">Is {{ config('app.name') }} a care agency?
                             <div class="icon fa fa-angle-right"></div>
@@ -405,7 +405,7 @@
                             </div>
                         </div>
                     </li>
-                    
+
                     <li class="accordion block">
                         <div class="acc-btn">How do I pay for care services on {{ config('app.name') }}?
                             <div class="icon fa fa-angle-right"></div>
@@ -433,6 +433,6 @@
     </div>
 </section>
 
-    
-    
+
+
 @endsection
