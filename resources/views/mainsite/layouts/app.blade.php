@@ -223,6 +223,7 @@
 
     	<!-- Main Footer -->
         <footer class="main-footer">
+            
             <div class="bg bg-image" style="background-image: url(images/background/bg-1.png)"></div>
             <!-- Upper Box -->
             <div class="auto-container">
