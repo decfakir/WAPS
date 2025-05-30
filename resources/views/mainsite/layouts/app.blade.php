@@ -68,11 +68,45 @@
 				<!-- Main box -->
 				<div class="main-box">
 					<div class="logo-box">
-						<div class="logo"><a href="{{ route('mainsite.home') }}"><img src="/mainsite-assets/images/logo-2.png" alt="" title="Insumo"></a></div>
+						<div class="logo"><a ><img src="/mainsite-assets/images/logo-2.png" alt="" title="Insumo"></a></div>
 					</div>
 
 					<!--Nav Box-->
-					<div class="nav-outer">
+				<div class="nav-outer">
+    <nav class="nav main-menu">
+        <ul class="navigation">
+            <li class="">
+                <a href="#">x</a>
+            </li>
+
+            <li class="">
+                <a href="#">x</a>
+            </li>
+
+            <li class="">
+                <a href="#">x</a>
+            </li>
+
+            <li class="">
+                <a href="#">x</a>
+            </li>
+
+            <li class="">
+                <a href="#">x</a>
+            </li>
+
+            <li class="">
+                <a href="#">x</a>
+            </li>
+
+            <li class="">
+                <a href="#">x</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+					{{-- <div class="nav-outer">
 						<nav class="nav main-menu">
                             <ul class="navigation">
                                 <li class="{{ request()->routeIs('mainsite.home') ? 'current' : '' }}">
@@ -112,7 +146,7 @@
 						</nav>
 
 						<!-- Main Menu End-->
-					</div>
+					</div> --}}
 
 					<div class="outer-box">
 						<div class="ui-btn-outer">
@@ -203,7 +237,7 @@
                         <!-- Email Info -->
                         <div class="contact-info col-lg-4 wow fadeInRight">
                             <div class="inner-box">
-                                <h4 class="title">Email</h4>
+                                <h4 class="title"></h4>
                                 <div class="text">
                                     <a href="mailto:{{ $companyContact['email_1'] ?? "" }}">{{ $companyContact['email_1'] ?? "" }}</a>
                                 </div>
@@ -212,9 +246,9 @@
                         <!-- Phone Info -->
                         <div class="contact-info col-lg-4 wow fadeInLeft" data-wow-delay="600ms">
                             <div class="inner-box">
-                                <h4 class="title">Call</h4>
+                                <h4 class="title"></h4>
                                 <div class="text">
-                                    <a href="tel:{{ $companyContact['phone_1'] ?? "NULL" }}">{{ formatPhoneNumber($companyContact['phone_1']) ?? "NULL" }}</a>
+                                    <a href="tel:{{ $companyContact['phone_1'] ?? "" }}">{{ formatPhoneNumber($companyContact['phone_1']) ?? "" }}</a>
                                 </div>
                             </div>
                         </div>
@@ -222,7 +256,7 @@
                 </div>
             </div>
 
-            <!-- Widgets Section -->
+            {{-- <!-- Widgets Section -->
             <div class="widgets-section">
                 <div class="auto-container">
                     <div class="row">
@@ -308,14 +342,14 @@
 
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <!-- Footer Bottom -->
             <div class="footer-bottom">
                 <div class="auto-container">
                     <div class="inner-container text-center">
                         <div class="copyright-text">
-                            <p>&copy; {{ date('Y') }} <a href="{{ route('mainsite.home') }}">{{ config('app.name') }}</a>. All rights reserved.</p>
+                            <p>&copy; {{ date('Y') }} <a >{{ config('app.name') }}</a>. All rights reserved.</p>
                         </div>
                     </div>
                 </div>

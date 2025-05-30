@@ -83,7 +83,7 @@
 
 
 
-
+{{-- 
                     <li class="sidebar-list">
                         <a class="{{ request()->is('admin/care-beneficiary*') ? 'active' : '' }} sidebar-link sidebar-title link-nav" href="{{ route('admin.care-beneficiary.index') }}">
                             <svg class="stroke-icon">
@@ -148,7 +148,7 @@
                             </svg>
                             <span>Admins</span>
                         </a>
-                    </li>
+                    </li> --}}
 
 
 
@@ -169,7 +169,7 @@
 
 
 
-                    <li class="sidebar-list">
+                    {{-- <li class="sidebar-list">
                         <a class="{{ request()->is('admin/auth-profile*') ? 'active' : '' }}   sidebar-link sidebar-title link-nav" href="{{ route('admin.auth-profile.show') }}">
                             <svg class="stroke-icon">
                                 <use href="/dashboard-assets/svg/icon-sprite.svg#stroke-editors"></use>
@@ -191,7 +191,7 @@
                             </svg>
                             <span>Change Password</span>
                         </a>
-                    </li>
+                    </li> --}}
 
 
 
